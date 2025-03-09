@@ -1,0 +1,57 @@
+# Ignore system and personal files
+.AppleDouble/
+.DS_Store
+.Trash-*
+.bash_history
+.cache/
+.config/
+.gitconfig
+.local/
+.node_modules/
+.vscode/
+AppData/
+Contacts/
+Documents/
+Downloads/
+Dropbox/
+Favorites/
+Library/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+Zotero/
+node_modules/
+package-lock.json
+
+# Ignore OS-specific files
+*.log
+*.tmp
+*.swp
+Thumbs.db
+Desktop.ini
+ntuser.*
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build artifacts
+dist/
+build/
+out/
+
+# Ignore other irrelevant files
+.bun/
+.cargo/
+.docker/
+.rustup/
+.ollama/
+.logseq/
+.remnote/
+.vir-data/
+.vir-metadata.json
